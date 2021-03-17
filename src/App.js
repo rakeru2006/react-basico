@@ -9,6 +9,8 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import Management from './components/Management';
+import SingIn from './components/SingIn';
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,6 +28,8 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
+              <Route path="/management" component={Management} />
+              <Route path="/singin" component={SingIn} />
               <Route component={NotFound} />
             </Switch>
           </div>
