@@ -20,6 +20,14 @@ class Header extends Component {
               <LiNavLink activeClassName='active' to="/">Home</LiNavLink>
               <LiNavLink activeClassName='active' to="/about">About</LiNavLink>
               <LiNavLink activeClassName='active' to="/management">Management</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Finance</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Human Resources</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Sales</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Marketing</LiNavLink>
+              <LiNavLink activeClassName='active' to="/management">Services</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Projects</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Legal area</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Help</LiNavLink>  
               <LiNavLink activeClassName='active' to="/contact">Contact</LiNavLink>
               <LiNavLink activeClassName='active' to="/NotFound">Error</LiNavLink>
               <LiNavLink activeClassName='active' to="/SingIn">SingIn</LiNavLink>           
