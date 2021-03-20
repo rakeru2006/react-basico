@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Management from './components/Management';
 import Rh from './components/Rh';
+import Help from './components/Help';
 import Agenda from './components/Agenda';
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,6 +31,7 @@ class App extends Component {
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
               <Route path="/management" component={Management} />
+              <Route path="/help" component={Help} />
               <Route path="/rh" component={Rh} />
               <Route path="/agenda" component={Agenda} />
               <Route component={NotFound} />

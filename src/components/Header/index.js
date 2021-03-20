@@ -19,15 +19,10 @@ class Header extends Component {
             <ul className="navbar-nav me-auto mb-2 mb-md-0">
               <LiNavLink activeClassName='active' to="/">Home</LiNavLink>
               <LiNavLink activeClassName='active' to="/about">About</LiNavLink>
-              <LiNavLink activeClassName='active' to="/management">Finance</LiNavLink> 
               <LiNavLink activeClassName='active' to="/rh">HumanResources</LiNavLink>
               <LiNavLink activeClassName='active' to="/management">Management</LiNavLink>  
-              <LiNavLink activeClassName='active' to="/management">Sales</LiNavLink> 
-              <LiNavLink activeClassName='active' to="/management">Marketing</LiNavLink>
-              <LiNavLink activeClassName='active' to="/management">Services</LiNavLink> 
-              <LiNavLink activeClassName='active' to="/management">Projects</LiNavLink> 
-              <LiNavLink activeClassName='active' to="/management">Legal area</LiNavLink> 
-              <LiNavLink activeClassName='active' to="/management">Help</LiNavLink>  
+
+              <LiNavLink activeClassName='active' to="/help">Help</LiNavLink>  
               <LiNavLink activeClassName='active' to="/contact">Contact</LiNavLink>
               <LiNavLink activeClassName='active' to="/NotFound">Error</LiNavLink>
               <LiNavLink activeClassName='active' to="/Agenda">Calendary</LiNavLink>  
@@ -43,3 +38,12 @@ class Header extends Component {
 }
 
 export default Header;
+
+/*
+              <LiNavLink activeClassName='active' to="/management">Sales</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Finance</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Marketing</LiNavLink>
+              <LiNavLink activeClassName='active' to="/management">Services</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Projects</LiNavLink> 
+              <LiNavLink activeClassName='active' to="/management">Legal area</LiNavLink> 
+              */
