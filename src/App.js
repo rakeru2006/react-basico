@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Management from './components/Management';
 import Rh from './components/Rh';
-import SingIn from './components/SingIn';
+import Agenda from './components/Agenda';
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -31,7 +31,7 @@ class App extends Component {
               <Route path="/contact" component={Contact} />
               <Route path="/management" component={Management} />
               <Route path="/rh" component={Rh} />
-              <Route path="/singin" component={SingIn} />
+              <Route path="/agenda" component={Agenda} />
               <Route component={NotFound} />
             </Switch>
           </div>

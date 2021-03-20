@@ -4,7 +4,9 @@ import './style.css';
 class Management extends Component {
   render() {
     return (
-      <h1>Management Users</h1>
+      <h1>Management Users Creado por  LUIS 
+          Marketing https://github.com/cloudinary/cloudinary-react 
+      </h1>
 
 
       
